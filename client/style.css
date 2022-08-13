@@ -1,0 +1,45 @@
+.field{
+    background-color: rgb(5, 35, 75);
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+.row{
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cell {
+    flex-basis: auto;
+    height: 50px;
+    width: 50px;
+}
+.Void {
+    border: 2px, solid, rgb(23, 36, 65);
+}
+.Wall {
+    background-color: grey;
+}
+
+.Box {
+    background-color: yellow;
+    border-radius: 5%;
+}
+
+.Base {
+    background-color: orange;
+}
+
+.Unit {
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+.Box_on_base {
+    background-color: green;
+}
+.Unit_on_base {
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+/* "Void","Wall","Box","Base", "Unit", "Box_on_base", "Unit_on_base"*/
